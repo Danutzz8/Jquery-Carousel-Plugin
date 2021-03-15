@@ -1,0 +1,13 @@
+.images-wrapper {
+     display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(271px,1fr));
+        grid-gap: 20px;
+       
+        height: auto;
+        margin: 35px auto 0 auto;
+        grid-auto-rows: repeat(auto-fit, minmax(366px, 1fr));
+        z-index: 2;
+        max-width: 1200px;
+        min-height: 920px;
+        background: #333;
+}
